@@ -18,8 +18,11 @@
     --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06rem);
 }
 
-$bp-largest: 106.25em;
+$bp-largest: 118.75em;
 $bp-large: 68.75em;
+$bp-medium: 107.18em;
+$bp-small: 37.5em;
+$bp-smallest: 31.25em;
 
 * {
     margin: 0;
@@ -36,7 +39,7 @@ html {
     box-sizing: border-box;
     font-style: 62,5%;
 
-    @media only screen and (max-width: $bp-large) {
+    @media only screen and (max-width: $bp-small) {
         font-size: 50%;
     }
 }
